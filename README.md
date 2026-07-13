@@ -117,3 +117,9 @@ The Next.js client will boot at `http://localhost:3000`.
    * `JWT_SECRET` = `<your-secret-key>`
    * `MONGODB_URI` = `<your-mongodb-atlas-url>`
 3. Set start command: `node server.js`.
+
+---
+
+## Developer
+* **Gubba Nithish**
+
