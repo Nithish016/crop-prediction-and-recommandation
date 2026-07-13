@@ -25,7 +25,8 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 // Set default Axios configuration
 export const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api',
+  baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:5000/api',
+
 });
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
